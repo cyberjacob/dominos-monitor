@@ -1,6 +1,8 @@
 # dominos-monitor
 Pizza tracking in 327 Characters
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/adb40e04e1b94837960073a2a8b9d010)](https://www.codacy.com/app/cyberjacob/dominos-monitor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cyberjacob/dominos-monitor&amp;utm_campaign=Badge_Grade)
+
 
 Python script for use with server monitoring sytems (e.g. Zabbix) for tracking Dominos Pizza Orders. 
 Uses the order's tracking ID with the API that power's Domino's pizza tracking website ("Dom").
