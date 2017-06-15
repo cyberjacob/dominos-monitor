@@ -1,5 +1,4 @@
 import requests
-import json
 
 TRACKING_ID = "MTM4MjI5NzY1fGQwYTYyNWRjLWEzMzgtNGM5NS1hYTg2LTE2ZjYwZDNkNzI1Ng%3D%3D"
 TRACKING_URL= "https://www.dominos.co.uk/pizzaTracker/getOrderDetails"
@@ -18,7 +17,7 @@ statuses = {
 }
 
 api_request = requests.get(TRACKING_URL+"?id="+TRACKING_ID)
-json_request= json.loads(api_request.content)
+json_request= api_request.json()
 status_id   = json_request['statusId']
 status_desc = statuses[status_id]
 
