@@ -1,1 +1,1 @@
-import requests as r;print {0:"Init",6:"Order",7:"Prep",5:"Baking",8:"Quality",9:"Delivery",3:"Delivered",10:"Collection",2:"Collected",1:"Cancelled"}[r.get("https://www.dominos.co.uk/pizzaTracker/getOrderDetails?id=MTM4MjI5NzY1fGQwYTYyNWRjLWEzMzgtNGM5NS1hYTg2LTE2ZjYwZDNkNzI1Ng%3D%3D").json()['statusId']]
+import requests as r,sys;print r.get("https://www.dominos.co.uk/pizzaTracker/getOrderDetails?id="+sys.argv[1]).json()['statusId']]
