@@ -1,5 +1,5 @@
 # dominos-monitor
-Pizza tracking in 327 Characters
+Pizza tracking in 130 Characters
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/adb40e04e1b94837960073a2a8b9d010)](https://www.codacy.com/app/cyberjacob/dominos-monitor?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cyberjacob/dominos-monitor&amp;utm_campaign=Badge_Grade)
 
