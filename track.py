@@ -1,6 +1,7 @@
 import requests
+import sys
 
-TRACKING_ID = "MTM4MjI5NzY1fGQwYTYyNWRjLWEzMzgtNGM5NS1hYTg2LTE2ZjYwZDNkNzI1Ng%3D%3D"
+TRACKING_ID = sys.argv[1]
 TRACKING_URL= "https://www.dominos.co.uk/pizzaTracker/getOrderDetails"
 
 statuses = {
